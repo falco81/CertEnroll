@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<appSettings>
+    <configuration>
+    	<Template>ISE-SCEP</Template>
+    	<CAName>CA-DPMO-ISE</CAName>		
+    	<OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>
+    	<ExportPass>1234</ExportPass>				
+    </configuration>
+</appSettings>  

@@ -1,0 +1,14 @@
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe.config
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Debug\CertEnroll.pdb
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csprojResolveAssemblyReference.cache
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.Form1.resources
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.Properties.Resources.resources
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.GenerateResource.Cache
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.exe
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.pdb
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\Interop.CERTCLIENTLib.dll
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\Interop.CERTENROLLLib.dll
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.ResolveComReference.cache
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Debug\Interop.CERTCLIENTLib.dll
+c:\users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Debug\Interop.CERTENROLLLib.dll
