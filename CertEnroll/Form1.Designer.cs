@@ -86,7 +86,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(121, 20);
             this.textBox1.TabIndex = 6;
-            this.textBox1.Text = "hostname.fnol.local";
+            this.textBox1.Text = "hostname";
             // 
             // label1
             // 
@@ -150,7 +150,7 @@
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Generování certifikátu FNOL";
+            this.Text = "Generování certifikátu ";
             this.Shown += new System.EventHandler(this.Form1_Shown);
             this.ResumeLayout(false);
             this.PerformLayout();

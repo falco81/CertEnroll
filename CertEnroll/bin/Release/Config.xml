@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <appSettings>
     <configuration>
+		<OrganizationName>FNOL</OrganizationName>
+		<DomainName>fnol.loc</DomainName>
     	<Template>ISE-SCEP</Template>
     	<CAName>CA-DPMO-ISE</CAName>		
     	<OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>

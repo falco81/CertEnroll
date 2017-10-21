@@ -35,6 +35,8 @@ namespace CertEnroll
         string myTemplate;
         string CAName;
         string ExportPass;
+        string myOrg;
+        string myDomain;
         Byte[] certData;
 
         public Form1()
@@ -275,9 +277,13 @@ namespace CertEnroll
             myTemplate = doc.SelectSingleNode("/appSettings/configuration/Template").InnerText;
             CAName = doc.SelectSingleNode("/appSettings/configuration/CAName").InnerText;
             ExportPass = doc.SelectSingleNode("/appSettings/configuration/ExportPass").InnerText;
+            myOrg = doc.SelectSingleNode("/appSettings/configuration/OrganizationName").InnerText;
+            myDomain = doc.SelectSingleNode("/appSettings/configuration/DomainName").InnerText;
             string OUitem=doc.SelectSingleNode("/appSettings/configuration/OU").InnerText;
             this.comboBox1.Items.AddRange(OUitem.Split(','));          
             comboBox1.SelectedIndex = 0;
+            Form1.ActiveForm.Text = "Generování certifikátu " + myOrg;
+            textBox1.Text = "hostname." + myDomain;
         }
 
   
