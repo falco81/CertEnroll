@@ -48,3 +48,4 @@ C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.application
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.pdb
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.CoreCompileInputs.cache

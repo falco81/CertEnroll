@@ -4,7 +4,7 @@
   <description asmv2:iconFile="CertEnroll.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CertEnroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
     <commandLine file="CertEnroll.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,38 +43,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="465408">
-      <assemblyIdentity name="CertEnroll" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="466936">
+      <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GIubJ4sBw1DKj06osC8YDscQkqv+/upnuwmacujRIeU=</dsig:DigestValue>
+        <dsig:DigestValue>gocQn8RuEdPB0SwHBlMQsteKByUjUbs3cEHWe6IOqXY=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTCLIENTLib.dll" size="11264">
-      <assemblyIdentity name="Interop.CERTCLIENTLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTCLIENTLib.dll" size="11776">
+      <assemblyIdentity name="Interop.CERTCLIENTLib" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>wf6kh1zVXmwsIfdTFcN3WAN7J8M0dBzD2+fmk7EcqUE=</dsig:DigestValue>
+        <dsig:DigestValue>Iv759RLOvx/r5RmfXBMnQwRczQ3yDLtCwxKdvh2X+sQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTENROLLLib.dll" size="163328">
-      <assemblyIdentity name="Interop.CERTENROLLLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTENROLLLib.dll" size="163840">
+      <assemblyIdentity name="Interop.CERTENROLLLib" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2nRGRTrMSseN6R7tkgxbgRsW3qjuV9Y1gvSNg+iqMLU=</dsig:DigestValue>
+        <dsig:DigestValue>GTWvl9okZbgfa7eWzyRaWzBawstjgI6RYytKBz9M84I=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

@@ -7,14 +7,14 @@
     <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="CertEnroll.exe.manifest" size="5344">
+    <dependentAssembly dependencyType="install" codebase="CertEnroll.exe.manifest" size="5480">
       <assemblyIdentity name="CertEnroll.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>TGFVjQj5aP6FX3suQYCTzUMFX8nJ2AC7D0VkoLNPz6M=</dsig:DigestValue>
+        <dsig:DigestValue>4ds71TTf5vjdphn1evqtWCjw1foOL//S0ksPAMU+IT8=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
