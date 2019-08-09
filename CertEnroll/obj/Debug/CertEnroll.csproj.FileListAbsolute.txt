@@ -28,3 +28,4 @@ C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.c
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.exe.manifest
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.application
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csprojAssemblyReference.cache
