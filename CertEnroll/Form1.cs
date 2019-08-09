@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 //  Add the CertEnroll namespace
 using CERTENROLLLib;
-using CERTCLIENTLib;
+using CERTCLILib;
 using System.Xml;
 using System.Security.Cryptography.X509Certificates;
 using System.IO;
@@ -51,17 +51,27 @@ namespace CertEnroll
             exportButton.Enabled = false;
             label3.Text = "Pracuji...";
             //  Create all the objects that will be required
-            CX509CertificateRequestPkcs10 objPkcs10 = new CX509CertificateRequestPkcs10();
-            CX509PrivateKey objPrivateKey = new CX509PrivateKeyClass();
-            CCspInformation objCSP = new CCspInformationClass();
-            CCspInformations objCSPs = new CCspInformationsClass();
-            CX500DistinguishedName objDN = new CX500DistinguishedNameClass();
-            CX509Enrollment objEnroll = new CX509EnrollmentClass();
-            CObjectIds objObjectIds = new CObjectIdsClass();
-            CObjectId objObjectId = new CObjectIdClass();
-            CX509ExtensionKeyUsage objExtensionKeyUsage = new CX509ExtensionKeyUsageClass();
-            CX509ExtensionEnhancedKeyUsage objX509ExtensionEnhancedKeyUsage = new CX509ExtensionEnhancedKeyUsageClass();
-            
+            //CX509CertificateRequestPkcs10 objPkcs10 = new CX509CertificateRequestPkcs10();
+            IX509CertificateRequestPkcs10 objPkcs10 = (IX509CertificateRequestPkcs10)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX509CertificateRequestPkcs10"));
+            //CX509PrivateKey objPrivateKey = new CX509PrivateKeyClass();
+            IX509PrivateKey objPrivateKey = (IX509PrivateKey)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX509PrivateKey"));
+            //CCspInformation objCSP = new CCspInformationClass();
+            CCspInformation objCSP = (CCspInformation)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CCspInformation"));
+            //CCspInformations objCSPs = new CCspInformationsClass();
+            CCspInformations objCSPs = (CCspInformations)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CCspInformations"));
+            //CX500DistinguishedName objDN = new CX500DistinguishedNameClass();
+            CX500DistinguishedName objDN = (CX500DistinguishedName)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX500DistinguishedName"));
+            //CX509Enrollment objEnroll = new CX509EnrollmentClass();
+            CX509Enrollment objEnroll = (CX509Enrollment)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX509Enrollment"));
+            //CObjectIds objObjectIds = new CObjectIdsClass();
+            CObjectIds objObjectIds = (CObjectIds)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CObjectIds"));
+            //CObjectId objObjectId = new CObjectIdClass();
+            CObjectId objObjectId = (CObjectId)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CObjectId"));
+            //CX509ExtensionKeyUsage objExtensionKeyUsage = new CX509ExtensionKeyUsageClass();
+            CX509ExtensionKeyUsage objExtensionKeyUsage = (CX509ExtensionKeyUsage)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX509ExtensionKeyUsage"));
+            //CX509ExtensionEnhancedKeyUsage objX509ExtensionEnhancedKeyUsage = new CX509ExtensionEnhancedKeyUsageClass();
+            CX509ExtensionEnhancedKeyUsage objX509ExtensionEnhancedKeyUsage = (CX509ExtensionEnhancedKeyUsage)Activator.CreateInstance(Type.GetTypeFromProgID("X509Enrollment.CX509ExtensionEnhancedKeyUsage"));
+
 
             try
             {
@@ -166,8 +176,8 @@ namespace CertEnroll
             sendRequestButton.Enabled = false;
             label3.Text = "Pracuji...";
             //  Create all the objects that will be required
-            CCertConfig objCertConfig = new CCertConfigClass();
-            CCertRequest objCertRequest = new CCertRequestClass();
+            CCertConfig objCertConfig = new CCertConfig();
+            CCertRequest objCertRequest = new CCertRequest();
             string strCAConfig;
 //            string strRequest;
             int iDisposition;
@@ -235,7 +245,7 @@ namespace CertEnroll
             acceptPKCS7Button.Enabled = false;
             label3.Text = "Pracuji...";
             //  Create all the objects that will be required
-            CX509Enrollment objEnroll = new CX509EnrollmentClass();
+            CX509Enrollment objEnroll = new CX509Enrollment();
 //            string strCert;
 
             try

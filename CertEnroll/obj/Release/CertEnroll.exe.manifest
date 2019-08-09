@@ -4,7 +4,7 @@
   <description asmv2:iconFile="CertEnroll.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="7DEAE322E0602040" language="neutral" processorArchitecture="msil" />
     <commandLine file="CertEnroll.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -15,16 +15,16 @@
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
         <!--
-          Možnosti manifestu pro nástroj Řízení uživatelských účtů
-          Pokud chcete změnit úroveň nástroje Řízení uživatelských účtů, nahraďte 
-          uzel requestedExecutionLevel jednou z následujících hodnot.
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         Pokud chcete využívat virtualizaci souborů a registru pro zpětnou 
-         kompatibilitu, pak uzel requestedExecutionLevel odstraňte.
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
     -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
@@ -43,38 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="466936">
-      <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="476744">
+      <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="7DEAE322E0602040" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>OQ1TyUVjF2vXwPpG3CDMvTk2mcqfIkAfpR5U+v9vcwA=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTCLIENTLib.dll" size="11776">
-      <assemblyIdentity name="Interop.CERTCLIENTLib" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Iv759RLOvx/r5RmfXBMnQwRczQ3yDLtCwxKdvh2X+sQ=</dsig:DigestValue>
-      </hash>
-    </dependentAssembly>
-  </dependency>
-  <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.CERTENROLLLib.dll" size="163840">
-      <assemblyIdentity name="Interop.CERTENROLLLib" version="1.0.0.0" publicKeyToken="CF56D02E0047E031" language="neutral" processorArchitecture="msil" />
-      <hash>
-        <dsig:Transforms>
-          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-        </dsig:Transforms>
-        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>GTWvl9okZbgfa7eWzyRaWzBawstjgI6RYytKBz9M84I=</dsig:DigestValue>
+        <dsig:DigestValue>jdixNa5G7Xcg0xe5eU3KCQBwE502y93bxCeiNWLRitk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
