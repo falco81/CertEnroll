@@ -1,3 +1,8 @@
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe.config
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe.manifest
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.application
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.pdb
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\Interop.CERTCLILib.dll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\Interop.CERTENROLLLib.dll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.ResolveComReference.cache
@@ -5,16 +10,7 @@ C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.F
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.Properties.Resources.resources
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.GenerateResource.cache
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe.config
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe.manifest
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.application
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.exe
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\CertEnroll.pdb
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.exe.manifest
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.application
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.pdb
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csprojAssemblyReference.cache
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\Newtonsoft.Json.dll
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Debug\Newtonsoft.Json.xml
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csproj.CopyComplete

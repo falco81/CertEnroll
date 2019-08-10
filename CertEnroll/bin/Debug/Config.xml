@@ -9,6 +9,6 @@
     	<ExportPass>1234</ExportPass>
     	<wwwPath>e:\3d</wwwPath>
     	<wwwIP>127.0.0.1</wwwIP>
-    	<wwwPort>80</wwwPort>
+    	<wwwPort>88</wwwPort>
     </configuration>
 </appSettings>

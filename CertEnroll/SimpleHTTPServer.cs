@@ -8,7 +8,6 @@ using System.Net;
 using System.IO;
 using System.Threading;
 using System.Diagnostics;
-using Newtonsoft.Json;
 
 namespace CertEnroll
 {
@@ -221,7 +220,26 @@ namespace CertEnroll
                 //context.Response.StatusCode = (int)HttpStatusCode.NotFound;
                 try
                 {
-                    string responseString = JsonConvert.SerializeObject(Directory.GetFiles(_rootDirectory, @"*.*", SearchOption.AllDirectories));
+                    string responseString = "<p><b>Directory content</b></p>";
+                    string[] dricont = Directory.GetFiles(_rootDirectory, @"*.*", SearchOption.TopDirectoryOnly);
+                    for (int i = 0; i < dricont.Length; i++)
+                    {
+                        if (_port == 80)
+                        {
+                            dricont[i] = "<a href=" + "http://" + _ipaddr + "/" +
+                                dricont[i].Substring(dricont[i].LastIndexOf('\\') + 1) + ">" + "http://" + _ipaddr + "/" +
+                                dricont[i].Substring(dricont[i].LastIndexOf('\\') + 1) + "</a>";
+                            responseString = responseString + dricont[i] + "<br>";
+                        }
+                        else
+                        {
+                            dricont[i] = "<a href=" + "http://" + _ipaddr + ":" + _port.ToString() + "/" +
+                                dricont[i].Substring(dricont[i].LastIndexOf('\\') + 1) + ">" + "http://" + _ipaddr + ":" +_port.ToString() + "/" +
+                                dricont[i].Substring(dricont[i].LastIndexOf('\\') + 1) + "</a>";
+                            responseString = responseString + dricont[i] + "<br>";
+                        }
+                    }
+                    
                     byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);
                     context.Response.ContentLength64 = buffer.Length;
                     Stream output = context.Response.OutputStream;
