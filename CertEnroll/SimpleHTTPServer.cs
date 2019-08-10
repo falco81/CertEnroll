@@ -87,6 +87,7 @@ namespace CertEnroll
         {".xml", "text/xml"},
         {".xpi", "application/x-xpinstall"},
         {".zip", "application/zip"},
+        {".pfx", "application/x-pkcs12"},
         #endregion
     };
         private Thread _serverThread;
