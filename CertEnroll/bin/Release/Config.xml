@@ -4,8 +4,11 @@
 	<OrganizationName>OLKRAJ</OrganizationName>
 	<DomainName>kr-olomoucky.int</DomainName>
     	<Template>ISE-SCEP</Template>
-    	<CAName>KR Olomoucky Root CA</CAName>		
+    	<CAName>KR Olomoucky Root CA</CAName>
     	<OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>
-    	<ExportPass>1234</ExportPass>				
+    	<ExportPass>1234</ExportPass>
+    	<wwwPath>e:\3d</wwwPath>
+    	<wwwIP>127.0.0.1</wwwIP>
+    	<wwwPort>80</wwwPort>
     </configuration>
-</appSettings>  
+</appSettings>

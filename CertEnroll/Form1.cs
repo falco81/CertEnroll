@@ -38,6 +38,10 @@ namespace CertEnroll
         string myOrg;
         string myDomain;
         Byte[] certData;
+        string wwwFolder = @"";
+        string wwwIP;
+        string wwwPort;
+        SimpleHTTPServer myServer = new SimpleHTTPServer();
 
         public Form1()
         {
@@ -290,10 +294,14 @@ namespace CertEnroll
             myOrg = doc.SelectSingleNode("/appSettings/configuration/OrganizationName").InnerText;
             myDomain = doc.SelectSingleNode("/appSettings/configuration/DomainName").InnerText;
             string OUitem=doc.SelectSingleNode("/appSettings/configuration/OU").InnerText;
+            wwwFolder = @doc.SelectSingleNode("/appSettings/configuration/wwwPath").InnerText;
+            wwwIP = doc.SelectSingleNode("/appSettings/configuration/wwwIP").InnerText;
+            wwwPort = doc.SelectSingleNode("/appSettings/configuration/wwwPort").InnerText;
             this.comboBox1.Items.AddRange(OUitem.Split(','));          
             comboBox1.SelectedIndex = 0;
             Form1.ActiveForm.Text = "Generování certifikátu " + myOrg;
             textBox1.Text = "hostname." + myDomain;
+            label4.Text = "IP: " + wwwIP + " port: " + wwwPort;
         }
 
   
@@ -343,5 +351,18 @@ namespace CertEnroll
             label3.Text = "Export OK";
                        
         }
+
+        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkBox1.Checked)
+            {
+                myServer.Start(wwwFolder, wwwIP, Convert.ToInt32(wwwPort));
+            }
+            else
+            {
+                myServer.Stop();
+            }
+        }
+
     }
 }

@@ -1,48 +1,19 @@
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe.config
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\Interop.CERTCLIENTLib.dll
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\Interop.CERTENROLLLib.dll
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.ResolveComReference.cache
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.pdb
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Release\Interop.CERTCLIENTLib.dll
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\bin\Release\Interop.CERTENROLLLib.dll
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.Form1.resources
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.Properties.Resources.resources
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.GenerateResource.Cache
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.pdb
-C:\Users\63979\documents\visual studio 2013\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe.config
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\Interop.CERTCLIENTLib.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\Interop.CERTENROLLLib.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.ResolveComReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.pdb
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.pdb
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\Interop.CERTCLIENTLib.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\Interop.CERTENROLLLib.dll
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.Form1.resources
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.Properties.Resources.resources
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.GenerateResource.Cache
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe.manifest
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\bin\Release\CertEnroll.application
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe.manifest
-C:\Users\Administrator\Documents\Visual Studio 2015\Projects\CertEnroll\CertEnroll\obj\Release\CertEnroll.application
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe.config
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe.manifest
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\CertEnroll.application
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\CertEnroll.pdb
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\Newtonsoft.Json.dll
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\bin\Release\Newtonsoft.Json.xml
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\Interop.CERTCLILib.dll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\Interop.CERTENROLLLib.dll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.ResolveComReference.cache
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.Form1.resources
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.Properties.Resources.resources
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.GenerateResource.Cache
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.GenerateResource.cache
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.CoreCompileInputs.cache
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe.manifest
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.application
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.CopyComplete
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.pdb
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csproj.CoreCompileInputs.cache
-C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\Interop.CERTCLILib.dll
