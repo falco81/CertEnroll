@@ -138,9 +138,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.Location = new System.Drawing.Point(48, 146);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(123, 17);
+            this.checkBox1.Size = new System.Drawing.Size(122, 17);
             this.checkBox1.TabIndex = 11;
-            this.checkBox1.Text = "HTTP server Enable";
+            this.checkBox1.Text = "HTTP server enable";
             this.checkBox1.UseVisualStyleBackColor = true;
             this.checkBox1.CheckedChanged += new System.EventHandler(this.CheckBox1_CheckedChanged);
             // 

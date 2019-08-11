@@ -14,3 +14,4 @@ C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.e
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.application
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.pdb
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Debug\CertEnroll.csprojAssemblyReference.cache
