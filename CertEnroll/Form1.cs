@@ -41,6 +41,7 @@ namespace CertEnroll
         string wwwFolder = @"";
         string wwwIP;
         string wwwPort;
+        bool wwwEnable;
         SimpleHTTPServer myServer = new SimpleHTTPServer();
 
         public Form1()
@@ -297,11 +298,17 @@ namespace CertEnroll
             wwwFolder = @doc.SelectSingleNode("/appSettings/configuration/wwwPath").InnerText;
             wwwIP = doc.SelectSingleNode("/appSettings/configuration/wwwIP").InnerText;
             wwwPort = doc.SelectSingleNode("/appSettings/configuration/wwwPort").InnerText;
+            wwwEnable = Convert.ToBoolean(doc.SelectSingleNode("/appSettings/configuration/wwwEnable").InnerText);
             this.comboBox1.Items.AddRange(OUitem.Split(','));          
             comboBox1.SelectedIndex = 0;
             Form1.ActiveForm.Text = "Generování certifikátu " + myOrg;
             textBox1.Text = "hostname." + myDomain;
             label4.Text = "IP: " + wwwIP + " port: " + wwwPort;
+            if (wwwEnable==false)
+            {
+                label4.Visible = false;
+                checkBox1.Visible = false;
+            }
         }
 
   

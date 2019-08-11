@@ -7,6 +7,7 @@
     	<CAName>KR Olomoucky Root CA</CAName>
     	<OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>
     	<ExportPass>1234</ExportPass>
+    	<wwwEnable>true</wwwEnable>
     	<wwwPath>e:\3d</wwwPath>
     	<wwwIP>127.0.0.1</wwwIP>
     	<wwwPort>80</wwwPort>

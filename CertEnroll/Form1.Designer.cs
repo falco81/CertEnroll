@@ -45,7 +45,7 @@
             // 
             // createRequestButton
             // 
-            this.createRequestButton.Location = new System.Drawing.Point(50, 37);
+            this.createRequestButton.Location = new System.Drawing.Point(48, 25);
             this.createRequestButton.Name = "createRequestButton";
             this.createRequestButton.Size = new System.Drawing.Size(138, 23);
             this.createRequestButton.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // sendRequestButton
             // 
-            this.sendRequestButton.Location = new System.Drawing.Point(50, 66);
+            this.sendRequestButton.Location = new System.Drawing.Point(48, 54);
             this.sendRequestButton.Name = "sendRequestButton";
             this.sendRequestButton.Size = new System.Drawing.Size(138, 23);
             this.sendRequestButton.TabIndex = 1;
@@ -65,7 +65,7 @@
             // 
             // acceptPKCS7Button
             // 
-            this.acceptPKCS7Button.Location = new System.Drawing.Point(50, 95);
+            this.acceptPKCS7Button.Location = new System.Drawing.Point(48, 83);
             this.acceptPKCS7Button.Name = "acceptPKCS7Button";
             this.acceptPKCS7Button.Size = new System.Drawing.Size(138, 23);
             this.acceptPKCS7Button.TabIndex = 2;
@@ -77,23 +77,23 @@
             // 
             this.comboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(299, 37);
+            this.comboBox1.Location = new System.Drawing.Point(297, 25);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
+            this.comboBox1.Size = new System.Drawing.Size(179, 21);
             this.comboBox1.TabIndex = 5;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(299, 66);
+            this.textBox1.Location = new System.Drawing.Point(297, 54);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(121, 20);
+            this.textBox1.Size = new System.Drawing.Size(179, 20);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = "hostname";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(205, 40);
+            this.label1.Location = new System.Drawing.Point(203, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(65, 13);
             this.label1.TabIndex = 7;
@@ -102,7 +102,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(205, 69);
+            this.label2.Location = new System.Drawing.Point(203, 57);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(88, 13);
             this.label2.TabIndex = 8;
@@ -113,7 +113,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.label3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.label3.Location = new System.Drawing.Point(205, 115);
+            this.label3.Location = new System.Drawing.Point(203, 103);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(74, 16);
             this.label3.TabIndex = 9;
@@ -121,7 +121,7 @@
             // 
             // exportButton
             // 
-            this.exportButton.Location = new System.Drawing.Point(50, 124);
+            this.exportButton.Location = new System.Drawing.Point(48, 112);
             this.exportButton.Name = "exportButton";
             this.exportButton.Size = new System.Drawing.Size(138, 23);
             this.exportButton.TabIndex = 10;
@@ -136,7 +136,7 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(50, 158);
+            this.checkBox1.Location = new System.Drawing.Point(48, 146);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(123, 17);
             this.checkBox1.TabIndex = 11;
@@ -147,7 +147,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(205, 158);
+            this.label4.Location = new System.Drawing.Point(203, 146);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(20, 13);
             this.label4.TabIndex = 12;
@@ -157,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(482, 187);
+            this.ClientSize = new System.Drawing.Size(526, 187);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.exportButton);
