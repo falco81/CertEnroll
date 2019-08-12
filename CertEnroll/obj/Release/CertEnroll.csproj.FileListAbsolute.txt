@@ -15,3 +15,4 @@ C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.exe
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.pdb
 C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.csprojAssemblyReference.cache
+C:\Users\Administrator\Source\Repos\CertEnroll\CertEnroll\obj\Release\CertEnroll.Configuration.resources

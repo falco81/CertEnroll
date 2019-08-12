@@ -1,15 +1,15 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <appSettings>
-    <configuration>
-	<OrganizationName>OLKRAJ</OrganizationName>
-	<DomainName>kr-olomoucky.int</DomainName>
-    	<Template>ISE-SCEP</Template>
-    	<CAName>KR Olomoucky Root CA</CAName>
-    	<OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>
-    	<ExportPass>1234</ExportPass>
-    	<wwwEnable>true</wwwEnable>
-    	<wwwPath>e:\3d</wwwPath>
-    	<wwwIP>127.0.0.1</wwwIP>
-    	<wwwPort>80</wwwPort>
-    </configuration>
+  <configuration>
+    <OrganizationName>OLKRAJ</OrganizationName>
+    <DomainName>kr-olomoucky.int</DomainName>
+    <Template>ISE-SCEP</Template>
+    <CAName>KR Olomoucky Root CA</CAName>
+    <OU>PC-OIT,PC-EXTERNISTE,MOBILE,TERMINAL</OU>
+    <ExportPass>EAAAANjgSCwrjKFmFS5YNCgoK3Ro2d89hkWeVJbvqQrR+t70</ExportPass>
+    <wwwEnable>True</wwwEnable>
+    <wwwPath>E:\3D</wwwPath>
+    <wwwIP>127.0.0.1</wwwIP>
+    <wwwPort>80</wwwPort>
+  </configuration>
 </appSettings>
