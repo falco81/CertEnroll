@@ -36,7 +36,13 @@ namespace CertEnroll
                 doc.SelectSingleNode("/appSettings/configuration/Template").InnerText = textBox4.Text;
                 doc.SelectSingleNode("/appSettings/configuration/ExportPass").InnerText = CryptUtils.EncryptString(textBox5.Text, CryptUtils.configPassword);
                 //richTextBox1.Lines = doc.SelectSingleNode("/appSettings/configuration/OU").InnerText.Split(',');
-                doc.SelectSingleNode("/appSettings/configuration/OU").InnerText = String.Join(",", richTextBox1.Lines);
+                //doc.SelectSingleNode("/appSettings/configuration/OU").InnerText = String.Join(",", richTextBox1.Lines);
+                string OUtext = "";
+                for (int i=0;i<dataGridView1.Rows.Count-1;i++)
+                {
+                    OUtext = OUtext + dataGridView1.Rows[i].Cells["OU"].Value + ",";
+                }
+                doc.SelectSingleNode("/appSettings/configuration/OU").InnerText = OUtext.Remove(OUtext.Length - 1);
                 doc.SelectSingleNode("/appSettings/configuration/wwwEnable").InnerText = Convert.ToString(checkBox1.Checked);
                 doc.SelectSingleNode("/appSettings/configuration/wwwPort").InnerText = numericUpDown1.Text;
                 doc.SelectSingleNode("/appSettings/configuration/wwwPath").InnerText = label1.Text;
@@ -48,6 +54,12 @@ namespace CertEnroll
 
         private void Configuration_Load(object sender, EventArgs e)
         {
+            DataGridViewCellStyle columnHeaderStyle = new DataGridViewCellStyle();
+
+            columnHeaderStyle.BackColor = Color.Beige;
+            columnHeaderStyle.Font = new Font("Verdana", 10, FontStyle.Bold);
+            dataGridView1.ColumnHeadersDefaultCellStyle = columnHeaderStyle;
+
             XmlDocument doc = new XmlDocument();
             doc.Load("Config.xml");
             textBox1.Text = doc.SelectSingleNode("/appSettings/configuration/OrganizationName").InnerText;
@@ -55,7 +67,11 @@ namespace CertEnroll
             textBox3.Text = doc.SelectSingleNode("/appSettings/configuration/CAName").InnerText;
             textBox4.Text = doc.SelectSingleNode("/appSettings/configuration/Template").InnerText;
             textBox5.Text = CryptUtils.DecryptString(doc.SelectSingleNode("/appSettings/configuration/ExportPass").InnerText, CryptUtils.configPassword);
-            richTextBox1.Lines = doc.SelectSingleNode("/appSettings/configuration/OU").InnerText.Split(',');
+            dataGridView1.Columns.Add("OU","OU");
+            foreach (var el in doc.SelectSingleNode("/appSettings/configuration/OU").InnerText.Split(','))
+            {
+                dataGridView1.Rows.Add(el.ToString());
+            }
             checkBox1.Checked = Convert.ToBoolean(doc.SelectSingleNode("/appSettings/configuration/wwwEnable").InnerText);
 
             if (checkBox1.Checked)

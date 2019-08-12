@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="493640">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CertEnroll.exe" size="494664">
       <assemblyIdentity name="CertEnroll" version="1.0.0.0" publicKeyToken="7DEAE322E0602040" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>w3QIzg1L4PAlNzdPsGiXG26EAfO5fqU4FDiBhah5yho=</dsig:DigestValue>
+        <dsig:DigestValue>UOtg0LfoALdXaDz8cTDqf4NMV2AmVfd/S3xcw++JSsE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
