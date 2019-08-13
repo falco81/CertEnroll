@@ -371,5 +371,25 @@ namespace CertEnroll
             }
         }
 
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Config.xml");
+            doc.SelectSingleNode("/appSettings/window/Height").InnerText = Convert.ToString(Height);
+            doc.SelectSingleNode("/appSettings/window/Width").InnerText = Convert.ToString(Width);
+            doc.SelectSingleNode("/appSettings/window/Top").InnerText = Convert.ToString(Top);
+            doc.SelectSingleNode("/appSettings/window/Left").InnerText = Convert.ToString(Left);
+            doc.Save("Config.xml");
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+            XmlDocument doc = new XmlDocument();
+            doc.Load("Config.xml");
+            Height = Convert.ToInt32(doc.SelectSingleNode("/appSettings/window/Height").InnerText);
+            Width = Convert.ToInt32(doc.SelectSingleNode("/appSettings/window/Width").InnerText);
+            Top = Convert.ToInt32(doc.SelectSingleNode("/appSettings/window/Top").InnerText);
+            Left = Convert.ToInt32(doc.SelectSingleNode("/appSettings/window/Left").InnerText);
+        }
     }
 }

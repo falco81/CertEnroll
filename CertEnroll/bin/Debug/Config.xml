@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <appSettings>
+  <window>
+    <Height>226</Height>
+    <Width>542</Width>
+    <Top>428</Top>
+    <Left>615</Left>
+  </window>
   <configuration>
     <OrganizationName>OLKRAJ</OrganizationName>
     <DomainName>kr-olomoucky.int</DomainName>
