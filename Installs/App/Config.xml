@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<appSettings>
+  <window>
+    <Height>226</Height>
+    <Width>542</Width>
+    <Top>472</Top>
+    <Left>689</Left>
+  </window>
+  <configuration>
+    <OrganizationName>OLKRAJ</OrganizationName>
+    <DomainName>kr-olomoucky.int</DomainName>
+    <Template>ISE-SCEP</Template>
+    <CAName>KR Olomoucky Root CA</CAName>
+    <OU>PC-OIT,PC-EXTERNISTE,BYOD</OU>
+    <ExportPass>EAAAADnNWHaw4lYs96TIpJndi6Ui8V26jJ57eQhLUSxTVpuO</ExportPass>
+    <wwwEnable>False</wwwEnable>
+    <wwwPath>C:\Program Files\CertEnroll\WWW</wwwPath>
+    <wwwIP>127.0.0.1</wwwIP>
+    <wwwPort>80</wwwPort>
+  </configuration>
+</appSettings>
