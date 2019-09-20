@@ -291,7 +291,7 @@ namespace CertEnroll
             doc.Load("Config.xml");
             myTemplate = doc.SelectSingleNode("/appSettings/configuration/Template").InnerText;
             CAName = doc.SelectSingleNode("/appSettings/configuration/CAName").InnerText;
-            ExportPass = doc.SelectSingleNode("/appSettings/configuration/ExportPass").InnerText;
+            ExportPass = CryptUtils.DecryptString(doc.SelectSingleNode("/appSettings/configuration/ExportPass").InnerText, CryptUtils.configPassword);
             myOrg = doc.SelectSingleNode("/appSettings/configuration/OrganizationName").InnerText;
             myDomain = doc.SelectSingleNode("/appSettings/configuration/DomainName").InnerText;
             string OUitem=doc.SelectSingleNode("/appSettings/configuration/OU").InnerText;
